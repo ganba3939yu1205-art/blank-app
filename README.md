@@ -1,5 +1,5 @@
 
-# 🎓 TOEIC 600点 4択マスター
+# 🎓 1日の遊びプラン提案アプリ
 
 Streamlitを利用した、効率的な英単語学習のためのWebアプリケーションです。TOEIC 600点レベルの英単語を4択クイズ形式で学び、苦手な単語を重点的に復習することができます。
 
@@ -8,7 +8,7 @@ Streamlitを利用した、効率的な英単語学習のためのWebアプリ�
 ## URL
 
 このURLで試すことができます（スリープ状態のときは青色の起動ボタンを押してください）：  
-https://wordquiz1-0121.streamlit.app/
+https://humble-orbit-69qjgqwwrvx6346vg-8501.app.github.dev/
  
 ---
 
