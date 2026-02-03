@@ -1,42 +1,19 @@
-🎓 TOEIC 600点 4択マスター
-Streamlitを利用した、効率的な英単語学習のためのWebアプリケーションです。TOEIC 600点レベルの英単語を4択クイズ形式で学び、苦手な単語を重点的に復習することができます。
+# 🎈 Blank app template
 
-URL
-このURLで試すことができます（スリープ状態のときは青色の起動ボタンを押してください）：
-https://wordquiz1-0121.streamlit.app/
+A simple Streamlit app template for you to modify!
 
-🌟 主な機能
-4択クイズモード: データベースからランダムに出題される英単語の意味を4つの選択肢から選びます。
-復習モード: 過去に間違えた単語だけを抽出して集中的に学習できます。
-学習記録の可視化: 間違えた回数が多い「苦手な単語」をランキング形式で表示します。
-自動DB連携: words.csv を用意するだけで、自分だけの単語帳を自動でデータベース化します。
-🛠 セットアップ方法
-1. 依存ライブラリのインストール
-Python環境がインストールされていることを確認し、必要なライブラリをインストールしてください。
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
 
-pip install streamlit pandas
-2. 単語データの準備
-プロジェクトのルートディレクトリに words.csv という名前でCSVファイルを配置してください。初回起動時に自動的にデータベースに読み込まれます。
+### How to run it on your own machine
 
-words.csv のフォーマット例:
+1. Install the requirements
 
-word	mean	level
-maintain	〜を維持する	600
-approximately	およそ	600
-3. アプリの起動
-以下のコマンドでアプリを起動します。
+   ```
+   $ pip install -r requirements.txt
+   ```
 
-streamlit run streamlit_app.py
-📊 データの仕組み
-このアプリは SQLite を使用して学習履歴を管理しています。
+2. Run the app
 
-words: 単語本体、意味、レベルを保存
-records: クイズの回答結果（正解/不正解）と日時を保存
-💻 使用技術
-Frontend/UI: Streamlit
-Data Handling: Pandas
-Database: SQLite3
-💡 今後のロードマップ（カスタマイズ例）
-CSVアップロード機能の追加
-品詞別のフィルタリング機能
-正解率に基づく進捗グラフの表示
+   ```
+   $ streamlit run streamlit_app.py
+   ```
